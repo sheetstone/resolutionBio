@@ -1,0 +1,116 @@
+<?php
+include_once('../../includes/inc.php');
+htmlHeader(array("title"=>"Resolution Bioscience - Contact","metaDesc"=>"","preLoader"=>"0"));
+?>
+<div class="main-container">
+	<section class="page-title page-title-2 image-bg ">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="/img/seattle.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-6">
+                                    <h2 class="uppercase bold mb8">We'd love to hear from you</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+		<section>
+		        <div class="container">
+		                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+					<div id="response" style="text-align:center">
+<p class="fullWidth" style="text-align:center">
+<p>Please contact us below for any inquires. We will get back to you within 48 hours.</p>
+You can also connect with us on <a href="https://www.linkedin.com/company/resolution-bioscience" target="linkedIn">LinkedIn</a></p>
+<p class="resBioBlue">Please fill out all of the following fields.</p>
+<div id="formErrors"></div>
+        <div role="form" style="text-align:left; margin: 10px;">
+        <form method="post" action="/contact/thankyou.html" id="contactForm">
+                <div class="form-group">
+                        <label>This question is in regards to...  </label>
+                        <select id="regards" name="regards" class="form-control" required  data-validation-engine="validate[required]">
+                                <option value="__PLACEHOLDER__">- Please Select -</option>
+                                <option value="Ordering a Test">Ordering a Test</option>
+                                <option value="Custom Assay">Custom Assay Development</option>
+                                <option value="Technical Inquiry">Technical Inquiry</option>
+                                <option value="Company Info">Company Information</option>
+                                <option value="Support">Support</option>
+                                <option value="Other">Other</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                        <label>I am a...</label>
+                        <select id="title" class="form-control" name="title" required  data-validation-engine="validate[required]">
+                                <option value="__PLACEHOLDER__">- Please Select -</option>
+                                <option value="Physician">Physician</option>
+                                <option value="Patient">Patient</option>
+                                <option value="Researcher">Researcher</option>
+                                <option value="Media">Member of the Media / Public Relations</option>
+                                <option value="Other">Other</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                        <label>Institution</label>
+                        <input type="input" name="company" id="company" class="form-control">
+                </div>
+                <div class="form-group">
+                        <div class="row"><div class="col-md-6">
+                                <label>First Name</label>
+                                <input type="input" name="firstname" id="firstname" class="form-control" required  data-validation-engine="validate[required]">
+                                </div><div class="col-md-6">
+                                <label>Last Name</label>
+                                <input type="input" name="lastname" id="lastname" class="form-control" required  data-validation-engine="validate[required]">
+                                </div>
+                        </div>
+                </div>
+                <div class="form-group">
+                        <div class="row"><div class="col-md-6">
+                               <label>Your Email</label>
+                                <input type="input" name="email" id="email" class="form-control" required  data-validation-engine="validate[required],custom[email]">
+                                </div><div class="col-md-6">
+                                <label>Phone Number</label>
+                                <input type="input" name="phone" id="phone" class="form-control">
+                                </div>
+                        </div>
+                </div>
+                <div class="form-group">
+                        <label>How did you hear about us?</label>
+                        <select name="hear" id="hear" class="form-control">
+                                <option value="__PLACEHOLDER__">- Please Select -</option>
+                                <option value="Internet Search">Internet Search</option>
+                                <option value="Trade Show">Trade Show</option>
+                                <option value="Advertisement - (Banner ad, Google Adwords ad, etc.)">Advertisement - (Banner ad, Google Adwords ad, etc.)</option>
+                                <option value="Media Review">Media Review</option>
+                                <option value="Twitter">Twitter</option>
+                                <option value="Recommended by a friend/colleague">Recommended by a friend/colleague</option>
+                                <option value="Other">Other</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                        <label>What can we do for you?</label>
+                        <textarea name="what" id="what" class="form-control"></textarea>
+                </div>
+                <input type="text" name="subject" id="subject" style="display: none;" autofill="off">
+                <button class="btn btn-primary" id="contactFormButton">Submit</button>
+        </form>
+        </div>
+        </div>
+        </div>
+</div> <!-- response -->
+		                </div>
+		            </div>
+		            
+		        </div>
+		        
+		    </section>
+</div>					
+
+<?php
+footer('
+<script src="/js/jquery.validationEngine-en.js"></script>
+<script src="/js/jquery.validationEngine.js"></script>
+<script src="/js/contact.js"></script>
+');
+?>

@@ -1,0 +1,165 @@
+<?php
+include_once('../../includes/inc.php');
+htmlHeader(array("title"=>"","metaDesc"=>"Dedicated to improve cancer outcomes via liquid biopsies.","preLoader"=>"0"));
+?>
+        <div class="main-container">
+            <section class="image-bg overlay parallax pt40 pb40 pt-xs-80 pb-xs-80">
+                <div class="background-image-holder">
+                    <img alt="image" class="background-image overlay" src="/img/lungTumor.jpg">
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-4 col-md-push-6 col-sm-push-6">
+                            <h2>Resolution ctDx Lung&trade;</h2>
+                            <p class="lead mb48 mb-xs-32">
+                            The genes involved in NSCLC are becoming increasingly understood. We can now identify driver mutations in more than half of all cases of adenocarcinoma. New therapies are being developed to target specific mutations. Many targeted therapeutics provide dramatic response. Unfortunately, many tumors evolve over time and develop new resistance mutations to these targeted therapies. The liquid biopsy allows for serial, real-time assessment of the tumor genotype as the tumor evolves.</p>
+                            <p>The Resolution ctDx Lung assay includes all actionable genes &mdash; genes with driver mutations targeted by a specific FDA-approved therapy or therapies now in clinical trials.</p>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+            
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4">
+                            <h2 class="color-primary">ctDx Lung Panel</h2>
+                            <hr>
+                            <table class="table table-striped mutTable">
+                                <thead><tr><th>SNV/Indel</th><th>Fusions</th><th>CNV</th></tr></thead>
+                                <tbody><tr>
+                                <td class="gene">AKT1<br>ALK<br>B2M<br>BRAF<br>EGFR<br>ERBB2 (HER2)<br>FGFR2<br>FGFR3<br>KEAP1<br>KRAS<br>MAP2K1 (MEK1)<br>MET<br>NRAS<br>PIK3CA<br>RET<br>ROS1<br>STK11</td>
+                                <td class="gene">ALK<br>EGFR<br>FGFR2<br>FGFR3<br>NTRK1<br>RET<br>ROS1</td>
+                                <td class="gene">B2M<br>EGFR<br>ERBB2 (HER2)<br>FGFR1</br>KRAS<br>MET<br>MYC<br>NTRK1<br>PIK3CA<br>PTEN<br>RICTOR<br>STK11</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-md-offset-1">
+                            <h2 class="color-primary">FDA Approved Therapies</h2>
+                            <hr>
+                            <table class="table table-striped mutTable">
+                            <thead><tr><th>Biomarker</th><th>Therapy</th></tr></thead>
+                            <tbody>
+                            <tr><td>exon 19 deletion<br>exon 21 L858R</td>
+                            <td>Gilotrif® (afatinib)<br>Tarceva&reg; (erlotinib)<br>Vizimpro&reg; (dacomitinib)<br>Iressa&reg; (gefitinib)<br>Tagrisso&reg; (osimertiniba</td>
+                            </tr>
+                            <tr>
+                                <td>EGFR S768I, L861Q, and/or G719X</td>
+                                <td>Gilotrif&reg; (afatinib)</td>
+                            </tr>
+                            <tr>
+                                <td>ALK fusions</td>
+                                <td>Alecensa&reg; (alectinib)<br>Alunbrig&reg; (brigatinib)<br>Lorbrena&reg; (lorlatinib)<br>Xalkori&reg; (crizotinib)<br>Zykadia&reg;(ceritinib) 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ROS1 fusions</td>
+                                <td>Xalkori&reg; (crizotinib)</td>
+                            </tr>
+                            <tr>
+                                <td>NTRK1 fusions</td>
+                                <td>Vitrakvi&reg; (larotrectinib</td>
+                            </tr>
+                            <tr>
+                                <td>BRAF V600E</td>
+                                <td>Tafinlar&reg; (dabrafenib) in combination with Mekinist® (trametinib)</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-title page-title-3 image-bg overlay parallax">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="/img/bloodcells.jpg">
+                        </div>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h3 class="uppercase mb0">Clinical Utility</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+                        </section>
+            <section>
+                <div class="container">
+                    <div class="row mb0 mb-xs-24">
+                    <div class="col-sm-6">
+                    <p>Our on-going, prospective study with <b>Memorial Sloan Kettering Cancer Center</b> has successfully generated clinical utility of the Resolution ctDx Lung assay. In the paper <a href="https://doi.org/10.1093/jnci/djy156" target="_new"><i>A Prospective Study of Circulating Tumor DNA to Guide Matched Targeted Therapy in Lung Cancers</i></a> (<a href="https://doi.org/10.1093/jnci/djy156" target="_new">doi.org/10.1093/jnci/djy156</a>) the ctDx Lung assay demonstrated the following performance:
+                    </p>
+                    <ul class="bullets">
+                     <li><b>97%</b> of evaluable patients who received plasma-directed therapy had a clinical and radiological response to matched targeted therapy. (34/35)
+                     <li><b>75%</b> of patients not currently on therapy had a somatic mutation detected versus 42.9% for on therapy patients. Overall detection of 64.3%
+                     <li>Median turnaround time was 9 days versus 20 days for tissue NGS (p &lt; .001).
+                     <li><b>45.7%</b> of patients had an oncogenic driver alteration detected, including actionable mutations in EGFR, ALK, MET, BRAF, ROS1, and RET.
+                     <li><b>89.6%</b> of patients tested positive by were concordant on tissue NGS by FDA-approved MSK-IMPACT assay (DEN170058).
+                     <li><b>96.1%</b> of patients tested positive by plasma for the NCCN recognized oncogenic driver alterations (EGFR, KRAS, ALK, ROS1, RET, BRAF, MET, HER2) were concordant on tissue NGS.
+                     <li><b>21.9%</b> of patients were matched to targeted therapies, including currently FDA approved therapies or therapies currently under investigation. Plasma- directed therapies included Tagrisso&reg; (osimertinib), Iressa&reg; (gefitinib), Tarceva&reg; (erlotinib), Gilotrif&reg; (afatinib), Xalkori&reg; (crizotinib), and Alecensa&reg; (alectinib)
+                     </ul>
+                    </div>
+                    <div class="col-sm-offset-6 text-center"><a href="https://doi.org/10.1093/jnci/djy156" target="_new"><img alt="Screenshot" src="/img/msk-JNCI.png"></a><br>
+                    <img alt="Article Image" class="mb32 mb-xs-16" src="/img/tat.png" style="width:50%">
+                    </div>
+                    </div>
+                    <div class="col-sm-12"><p>Below are the spectrum and number of SNVs, Indels, CNV, and fusions detected by the ctDx Lung assay in the first 210 NSCLC patients.</p></div>
+                </div>
+                <div class="row mb8 mb-xs-24">
+                    <div id="MSKContainer" width="100%" style="margin-top: 0px;">
+                    <div id="dataWindow"></div>
+                </div>
+           </section>
+
+            <section class="page-title page-title-3 image-bg overlay parallax">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="/img/squareFusion.jpg" style="background-size: 800px 533px;">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h3 class="uppercase mb0">Fusions</h3>
+                                </div>
+                            </div>
+
+                        </div>
+            </section>
+            <section>
+            <div class="container">
+                <div class="row mb8 mb-xs-24">
+                    <div class="col-sm-12 col-md-10 col-md-offset-1">
+                    <p>Researchers at the <b>Vanderbilt University Medical Center</b> used the Resolution ctDx Lung assay in the study &quot;<a href="https://doi.org/10.1016/j.jtho.2019.08.003" target="_new">Monitoring Therapeutic Response and Resistance: Analysis of Circulating Tumor DNA in Patients With ALK+ Lung Cancer</a>&quot; (<a href="https://doi.org/10.1016/j.jtho.2019.08.003" target="_new">doi.org/10.1016/j.jtho.2019.08.003</a>) to detect ALK gene fusions. The detected rearrangments are plotted on the interactive graph below. The ctDx platform detects gene fusions / rearrangements with breakpoint and gene partner agnostic technology.<p>
+                    </div>
+                <div class="row mb8 mb-xs-24">
+                    <div id="fusionContainer" width="100%" style="margin-top: 0px;"></div>
+                </div>
+                <div class="row mb32 mb-xs-24">
+                    <h6><center>Pan by dragging along the genomic coordinates. Zoom by double clicking or scroll wheel over the genomic coordinates.</center></h6>
+                </div>
+            </div>
+            <div class="row mb8 mb-xs-24">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
+                <p>The <b>Dana-Farber Cancer Institute</b> compared the Resolution ctDx Lung Assay against Guardant Health's Guardant360&reg; assay in the detection of the more challenging oncogenic gene fusions. The resulting paper, <i><a href="https://doi.org/10.1016/j.lungcan.2019.06.004" target="_new">Sensitivity of next-generation sequencing assays detecting oncogenic fusions T in plasma cell-free DNA</a></i> (<a href="https://doi.org/10.1016/j.lungcan.2019.06.004" target="_new">doi.org/10.1016/j.lungcan.2019.06.004</a>) </p>
+                <p><i>Results: </i>Of 16 patients assayed known to harbor an ALK, ROS1, or RET in tumor, G360 detected fusions in 7 cases, Resolution ctDx Lung detected fusions in 13 cases, and 3 cases were detected by neither. Of the 7 fusions detected by both assays, G360 reported lower mutant allelic fractions (AF). In cases missed by G360, tumor derived TP53 mutations were often detected confirming presence of tumor DNA. Raw sequencing data showed that inverted or out-of-frame variants were overrepresented in cases detected using ctDx Lung but not by G360.</p>
+
+                <center><img alt="Article Image" class="mb32 mb-xs-16 " src="/img/Supplee_et_al_fusions.png" style="width:75%"></center>
+            </div>
+            </section>
+        </div>
+    </div>
+
+</div>
+
+<?php
+footer('
+<script src="https://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap.popover.js"></script>
+<script src="/js/msk.js"></script>
+<script src="/js/fusion_jto.ob.js"></script>
+');
+

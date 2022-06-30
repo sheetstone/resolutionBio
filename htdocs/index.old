@@ -1,0 +1,234 @@
+<?php
+include_once('../includes/inc.php');
+htmlHeader(array("title"=>"Dedicated to improve cancer outcomes with leading technologies","metaDesc"=>"Dedicated to improve cancer outcomes via liquid biopsies.","preLoader"=>"0"));
+?>
+		<div class="main-container">
+			<section class="image-bg overlay parallax">
+		        <div class="background-image-holder">
+		            <img alt="Background" class="background-image" src="/img/crowd2.jpg">
+		        </div>
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-sm-12 text-center">
+		                    <h2 class="mb16 text-shadow"><b>Every cancer patient is unique.</b></h2>
+		                    <h4 class="lead mb64 text-shadow">We are dedicated to improving patient outcomes by bringing leading technologies to the market.
+		                    </h4>
+		                </div>
+		            </div>
+		            
+		            <div class="row">
+		                <div class="col-sm-4">
+		                    <div class="feature feature-1 ">
+		                        <div class="text-center">
+						<a class="btn btn-filled btn-large" href="/science/comprehensive.html">How we are different</a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-sm-4">
+		                    <div class="feature feature-1 ">
+		                        <div class="text-center">
+						<a class="btn btn-filled btn-large" href="/casestudies/">Patient Case Studies</a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-sm-4">
+		                    <div class="feature feature-1 ">
+		                        <div class="text-center">
+						<a class="btn btn-filled btn-large" href="/casestudies/clinicaltrials.html">Clinical Trials</a>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>		
+			<section>
+		        <div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 text-center">
+						<h2>ctDx&trade; <b>Comprehensive</b> Liquid Biopsy Platform</h2>
+						<p>The ctDx platform uses next-generation sequencing (NGS) and a standard peripheral blood sample. This non-invasive assay platform has been validated to detect all four major types of genetic alterations known to drive cancers.<br> Turnaround time is measured in days, not weeks.</p>
+					</div>
+				</div>
+		            <div class="row">
+		                <div class="text-center col-sm-3">
+		                    <div class="feature">
+					<a href="/science/comprehensive.html?#snv"><i class="circleBig inline-block mb16" style="background-image: url('/img/circleSNV.jpg');"></i></a>
+		                        <h4><a href="/science/comprehensive.html?#snv">SNVs</a></h4>
+		                    </div>
+		                </div>
+		                <div class="text-center col-sm-3">
+		                    <div class="feature">
+					<a href="/science/comprehensive.html?#indel"><i class="circleBig inline-block mb16" style="background-image: url('/img/circleIndel.jpg');"></i></a>
+		                        <h4><a href="/science/comprehensive.html?#indel">Indels</a></h4>
+		                    </div>
+		                </div>
+		                <div class="text-center col-sm-3">
+		                    <div class="feature">
+					<a href="/science/comprehensive.html?#fusion"><i class="circleBig inline-block mb16" style="background-image: url('/img/circleFusion.jpg');"></i></a>
+		                        <h4><a href="/science/comprehensive.html?#fusion">Fusions</a></h4>
+		                    </div>
+		                </div><div class="text-center col-sm-3">
+		                    <div class="feature">
+					<a href="/science/comprehensive.html?#cnv"><i class="circleBig inline-block mb16" style="background-image: url('/img/circleCNV.jpg');"></i></a>
+		                        <h4><a href="/science/comprehensive.html?#cnv">CNV</a></h4>
+		                    </div>
+		                </div>
+		            </div>
+				<div class="row">
+                                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+						<a class="btn btnLink" href="/science/comprehensive.html">Learn more about why its important to have a comprehensive test</a>
+                                        </div>
+                                </div>
+		            
+		        </div>
+		        
+		    </section>
+			<section class="image-bg overlay parallax pt80 pb80 pt-xs-32 pb-xs-32">
+                                <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="/img/sparkler.jpg">
+                                </div>
+
+                                <div class="container">
+                                        <div class="row">
+                                                <div class="col-md-5 col-sm-6 col-md-push-7 col-sm-push-6">
+                                                        <h2><b>Tumor evolution in real-time</b></h2>
+                                                        <p class="lead mb48 mb-xs-32">
+                                                        Longitudinal monitoring offers the ability to monitor tumor evolution over time and under treatment. Allelic frequencies can change quickly. At disease progression, it becomes critical to have a comprehensive genotype to look for resistance mechanisms.
+                                                        </p>
+                                                </div>
+                                        </div>
+
+                                </div>
+                        </section>
+		<section class="pt16 pb16">
+		        <div class="container">
+			<div class="row"><div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 text-center"><h3>Latest News</h3></div></div>
+
+		<div class="row mb16">
+                <div class="col-md-2 col-md-offset-1 uppercase">June 3, 2017</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="http://abstracts.asco.org/199/AbstView_199_189219.html" target="_new">
+ASCO 2017: MSKCC to Present Prospective Study of Plasma ctDNA in NSCLC cancers matched to targeted therapy.</h5></a>
+                </div>
+                <div class="col-md-1">
+<a class="btn btn-sm btnLink" href="http://abstracts.asco.org/199/AbstView_199_189219.html" target="_new">Read more</a>
+                </div>
+                        </div>
+
+                <div class="row mb16">
+                <div class="col-md-2 col-md-offset-1 uppercase">June 3, 2017</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="http://abstracts.asco.org/199/AbstView_199_191378.html" target="_new">
+ASCO 2017: Northwestern University and Vanderbilt to Present Plasma-based Longitudinal Monitoring of Mutations and T-cell Repertoire in Small Cell Lung Cancer.
+</h5></a>
+                </div>
+                <div class="col-md-1">
+<a class="btn btn-sm btnLink" href="http://abstracts.asco.org/199/AbstView_199_191378.html" target="_new">Read more</a>
+                </div>
+                        </div>
+
+		<div class="row mb16">
+                <div class="col-md-2 col-md-offset-1 uppercase">April 27, 2017</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176241" target="_new">Resolution Bioscience publishes paper on the collection of cell-free DNA for genomic analysis of solid tumors in a clinical laboratory setting</h5></a>
+                </div>
+                <div class="col-md-1">
+<a class="btn btn-sm btnLink" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176241" target="_new">Read more</a>
+                </div>
+                        </div>
+
+
+			<div class="row mb16">
+                <div class="col-md-2 col-md-offset-1 uppercase">April 4, 2017</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="http://www.abstractsonline.com/pp8/#!/4292/presentation/1329" target="_new">Vanderbilt and Resolution Bioscience to present at AACR 2017 on longitudinal monitoring of cell-free DNA in patients with small cell lung cancer</h5></a>
+		</div>
+		<div class="col-md-1">
+<a class="btn btn-sm btnLink" href="http://www.abstractsonline.com/pp8/#!/4292/presentation/1329" target="_new">Read more</a>
+		</div>
+			</div>
+
+
+			<div class="row mb16">
+                <div class="col-md-2 col-md-offset-1 uppercase">September 7, 2016</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="/company/press/2016.09.07_resbio_frederick.html">Resolution Bioscience Announces Collaboration on Liquid Biopsies with Frederick National Laboratory for Cancer Research</a></h5>
+		</div>
+                <div class="col-md-1">
+<a class="btn btn-sm btnLink" href="/company/press/2016.09.07_resbio_frederick.html">Read more</a>
+                </div>
+			</div>
+			<div class="row mb16">
+		<div class="col-md-2 col-md-offset-1 uppercase">July 14, 2016</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="/company/press/2016.07.14_resbio_fda_aacr.html">Resolution Bioscience to participate at the FDA-AACR Liquid Biopsy Workshop</a></h5>
+		</div>
+                <div class="col-md-1">
+<a class="btn btn-sm btnLink" href="/company/press/2016.07.14_resbio_fda_aacr.html">Read more</a>
+		</div>
+			</div>
+			<div class="row">
+                <div class="col-md-2 col-md-offset-1 uppercase">June 1, 2016</div>
+                <div class="col-md-7">
+<h5 class="mt0"><a href="/company/press/2016.06.01_resbio_asco2016.html">Resolution Bioscience's ctDx Blood-based NGS Platform used for Plasma Genotyping and Longitudinal Monitoring of ALK Fusion Positive Patients in Clinical Trial</a></h5>
+			</div>
+                        <div class="col-md-1">
+<a class="btn btn-sm btnLink" href="/company/press/2016.06.01_resbio_asco2016.html">Read more</a>
+                </div>
+			</div>
+	</div>
+
+                    </section>
+		<section class="page-title page-title-3 image-bg overlay parallax">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="/img/bloodcells.jpg">
+                        </div>
+                        </section>
+		 <section>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="feature feature-1">
+                                        <div class="text-center">
+                                            <h1 style="margin-bottom: 0px;"><i class="fa fa-user"></i></h1>
+                                            <h5 class="uppercase">Patients and Clinicians</h5>
+                                        </div>
+                                        <p>
+                                        Patients are why we are here. We have all been touched by cancer. Helping patients drives us to make the best diagnostics available.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="feature feature-1">
+                                        <div class="text-center">
+                                            <h1 style="margin-bottom: 0px;"><i class="fa fa-user-md"></i></h1>
+                                            <h5 class="uppercase">Research Collaborators</h5>
+                                        </div>
+                                        <p>
+                                        Clinicians stand at the frontline of care. As the director of patient care, we work with them to provide critical information.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="feature feature-1">
+                                        <div class="text-center">
+                                            <h1 style="margin-bottom: 0px;"><i class="fa fa-medkit"></i></h1>
+                                            <h5 class="uppercase">Pharmaceuticals</h5>
+                                        </div>
+                                        <p>
+                                        Treatment starts with effective therapies. We work with biotech and pharmaceutical companies to support their clinical trials and do biomarker discovery.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+<?php
+footer();
+?>

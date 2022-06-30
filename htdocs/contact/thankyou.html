@@ -1,0 +1,11 @@
+<?php
+include_once('../../includes/inc.php');
+	if($_POST['email'] == '') {
+		echo 1;
+	} else {
+		$headers = 'From: inquiry@resolutionbio.com' . "\r\n".'Reply-To: noreply@resolutionbio.com' . "\r\n".'X-Mailer: PHP/' . phpversion();
+		mail('inquiry@resolutionbio.com','Contact Form',"Contact Form submission:\nName: ".$_POST['firstname'].' '.$_POST['lastname']."\nEmail: ".$_POST['email']."\nPhone: ".$_POST['phone']."\nCompany: ".$_POST['company']."\nI am a: ".$_POST['title']."\nTopic: ".$_POST['regards']."\nHow: ".$_POST['hear']."\nSubject: ".$_POST['what']."\nIP: ".$_SERVER['REMOTE_ADDR']."\n\n",$headers);
+		echo 1;
+		writeLog('inquiry.log',$_POST['firstname'].' '.$_POST['lastname'].", ".$_POST['email'].", ".$_POST['phone'].", " .$_POST['company'].", ".$_POST['title'].", ".$_POST['regards'].", ".$_POST['hear']."\, ".$_POST['what']." ".$_SERVER['REMOTE_ADDR']);
+	}
+?>

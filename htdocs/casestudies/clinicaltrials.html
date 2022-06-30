@@ -1,0 +1,108 @@
+<?php
+include_once('../../includes/inc.php');
+htmlHeader(array("title"=>"Liquid biopsy testing underway with Seattle lung cancer patients","metaDesc"=>"","preLoader"=>"0"));
+?>
+<div class="main-container">
+		<section class="page-title page-title-3 image-bg overlay parallax">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="/img/bloodcells.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h3 class="uppercase mb0">Clinical Trial Case Study</h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+		</section>
+		<section>
+		        <div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+<p>The Resolution Bioscience ctDx-Lung v1.0 assay was deployed recently in a clinical trial and a NSCLC research study. The assay targets actionable, somatic SNVs, indels, fusions and copy number variants in 15 genes implicated in lung and other cancers, using a proprietary, high-efficiency hybrid capture system and NGS sequencing of ctDNA from plasma. 392 patients (342 from the 42756493EDI1001 clinical trial screening, and 50 from a University of Washington study CC9372) were analyzed in the Resolution Bioscience CLIA laboratory. Patients had previously been diagnosed with one of ten histologies, including lung, breast, and ovarian cancer. The patient cohort was a clinically relevant sampling of treatment-na&iuml;ve patients, those on therapy, and those with refractory disease after >= 1 therapy course.</p>
+					</div>
+					<div class="col-md-2">
+						<a class="" target="_new" href="/publications/ResolutionBio_ESMO2016.pdf">
+						<img src="/img/ESMO-2016-Poster.jpg"><br>Download the ESMO 2016 Poster
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+                                        <div class="col-md-10 col-md-offset-1" id="compMut">
+                                                <div id="dataWindow"></div>
+                                        </div>
+                                </div>
+				<div class="row">
+				<div class="col-md-7 col-md-offset-1">
+<p>Targeted NGS of cfDNA was performed at Resolution Bioscience as described in <a href="http://clincancerres.aacrjournals.org/content/early/2015/10/10/1078-0432.CCR-15-1627-T.abstract?papetoc" target="_new">Paweletz et al (2015)</a>, using an NGS panel targeting actionable mutations and rearrangements found in NSCLC. Peripheral blood was collected in 2x10mL K2EDTA collection tubes and plasma was extracted on-site and shipped to Resolution Bio’s CLIA lab.
+</p><p>
+Specimens were accessioned into Resolution’s custom LIMS system. cfDNA was extracted, amplified genomic libraries were denatured and hybridized with 40nt targeting probes. Following hybridization and purification of probe-clone complexes, primer extension of the probe was used to copy the captured genomic sequence information as well as the adaptor. This step, which enriches for genomic clones that are in direct physical contact with probes, contributes substantially to the observed high rate of on-target sequence reads ( > 95%), and also allows for efficient detection of gene fusion partners without any prior knowledge of the gene partner or breakpoint.
+</p><p>
+Following paired end sequencing of capture libraries, bioinformatics was performed with Resolution’s customized bioinformatics platform.
+</p><p>
+<b>Significantly, 386 of 392 specimens (98.5%) were evaluable with clinical reports returned in a median of 8.6 days.</b>
+5 specimens did not meet the required 500 genomic equivalents input threshold for the assay, even after combining cfDNA yield from both patient specimens, and 1 specimen3 did not meet inclusion critera (patient was on treatment) and was rejected.</p>
+				<p>The below mutations were detected in the studies.</p>
+				<p>Roll-over the mutations to see the mutational frequency across patients and indications.</p>
+				</div>
+				<div class="col-md-3">
+<table class="table table-striped table-condensed mutTable">
+<thead><tr><td colspan="2">Assay Performance</td></tr></thead>
+<tr><td>Median Turnaround Time</td><td>8.6 days</td></tr>
+<tr><td>Specimen Rejection Rate</td><td>0.26%</td></tr>
+<tr><td>Specimen Failure Rate</td><td>1.28%</td></tr>
+<tr><td>Patients with Mutations</td><td>61%</td></tr>
+<tr><td>Median Mutations / Patient</td><td>1.7</td></tr>
+<tr><td>Median Allele Frequency</td><td>2.7%</td></tr>
+</table>
+
+<table class="table table-striped table-condensed mutTable">
+<thead><tr><td>Indication</td><td>Patients</td></tr></thead>
+<tr><td>NSCLC Adenocarcinoma</td><td>133</td></tr>
+<tr><td>Breast</td><td>56</td></tr>
+<tr><td>Ovarian</td><td>50</td></tr>
+<tr><td>Head & Neck</td><td>38</td></tr>
+<tr><td>Glioblastoma Multiforme</td><td>30</td></tr>
+<tr><td>Cholangiocarcinoma</td><td>28</td></tr>
+<tr><td>Gastric Cancer</td><td>18</td></tr>
+<tr><td>NSCLC Squamous</td><td>17</td></tr>
+<tr><td>Esophageal</td><td>14</td></tr>
+<tr><td>Urothelial</td><td>7</td></tr>
+<tr><td>Unknown</td><td>1</td></tr>
+</table>
+
+                                </div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1" id="icompMut">
+						<div id="dataWindow"></div>
+					</div>
+				</div>
+		        </div>
+		</section>
+		<section class="image-bg parallax overlay">
+                        <div class="background-image-holder">
+                            <img alt="Background Image" class="background-image" src="/img/kobenhavn.jpg">
+                        </div>
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h3 class="mb40 mb-xs-24">Download the ESMO 2016 Poster</h3>
+                                    <a class="btn btn-lg btn-filled" target="_new" href="/publications/ResolutionBio_ESMO2016.pdf">Download</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+</div>					
+
+<?php
+footer('
+<script src="https://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+<!-- <script src="/js/bootstrap.tooltip.js"></script> -->
+<script src="/js/bootstrap.popover.js"></script>
+<script src="/js/edi.js"></script>
+');
+?>

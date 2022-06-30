@@ -1,0 +1,88 @@
+<?php
+include_once('../../includes/inc.php');
+htmlHeader(array("title"=>"Resolution Bioscience - Test Ordering","metaDesc"=>"","preLoader"=>"0"));
+?>
+<div class="main-container">
+		<section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"><h2>Order a Test</h2></div>
+                </div>
+                <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+					<div id="response" style="text-align:center">
+<div id="formErrors"></div>
+        <div role="form" style="text-align:left; margin: 10px;">
+        <form method="post" action="/ordering/thankyou.html" id="orderForm">
+                <div class="form-group">
+                    <div class="row"><div class="col-md-12"><h4 class="mb0">Ordering Clinician</h4></div></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="firstname" id="firstname" class="form-control mb8" required  data-validation-engine="validate[required]" placeholder="First Name">
+                        </div><div class="col-md-6">
+                            <input name="lastname" id="lastname" class="form-control mb8" required  data-validation-engine="validate[required]" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="email" id="email" class="form-control" required  data-validation-engine="validate[required],custom[email]" placeholder="Email for results notification">
+                        </div><div class="col-md-6">
+                            <input name="npi" id="npi" class="form-control" placeholder="NPI" required data-validation-engine="validate[required],minSize[10],maxSize[10],custom[integer]">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row"><div class="col-md-12"><h4 class="mb0">Practice / Institution Contact</h4></div></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="practice-firstname" id="practice-firstname" class="form-control mb8" required  data-validation-engine="validate[required]" placeholder="First Name">
+                        </div><div class="col-md-6">
+                            <input name="practice-lastname" id="practice-lastname" class="form-control mb8" required  data-validation-engine="validate[required]" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="practice-email" id="practice-email" class="form-control" required  data-validation-engine="validate[required],custom[email]" placeholder="Email">
+                        </div><div class="col-md-6">
+                            <input name="practice-phone" id="practice-phone" class="form-control" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input name="practice-name" id="practice-name" class="form-control mb8" required  data-validation-engine="validate[required]" placeholder="Practice / Institution Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input name="practice-address" id="practice-address" class="form-control mb8" required  data-validation-engine="validate[required]" placeholder="Address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="practice-city" id="practice-city" class="form-control mb0" required  data-validation-engine="validate[required]" placeholder="City">
+                        </div><div class="col-md-4">
+                            <select name="practice-state" id="practice-state" class="form-control mb0" style="-webkit-appearance: menulist; text-transform:none;"> 
+  <option value="AL">Alabama</option> <option value="AK">Alaska</option> <option value="AZ">Arizona</option> <option value="AR">Arkansas</option> <option value="CA">California</option> <option value="CO">Colorado</option> <option value="CT">Connecticut</option> <option value="DE">Delaware</option> <option value="FL">Florida</option> <option value="GA">Georgia</option> <option value="HI">Hawaii</option> <option value="ID">Idaho</option> <option value="IL">Illinois</option> <option value="IN">Indiana</option> <option value="IA">Iowa</option> <option value="KS">Kansas</option> <option value="KY">Kentucky</option> <option value="LA">Louisiana</option> <option value="ME">Maine</option> <option value="MD">Maryland</option> <option value="MA">Massachusetts</option> <option value="MI">Michigan</option> <option value="MN">Minnesota</option> <option value="MS">Mississippi</option> <option value="MO">Missouri</option> <option value="MT">Montana</option> <option value="NE">Nebraska</option> <option value="NV">Nevada</option> <option value="NH">New Hampshire</option> <option value="NJ">New Jersey</option> <option value="NM">New Mexico</option> <option value="NY">New York</option> <option value="NC">North Carolina</option> <option value="ND">North Dakota</option> <option value="OH">Ohio</option> <option value="OK">Oklahoma</option> <option value="OR">Oregon</option> <option value="PA">Pennsylvania</option> <option value="RI">Rhode Island</option> <option value="SC">South Carolina</option> <option value="SD">South Dakota</option> <option value="TN">Tennessee</option> <option value="TX">Texas</option> <option value="UT">Utah</option> <option value="VT">Vermont</option> <option value="VA">Virginia</option> <option value="WA">Washington</option> <option value="WV">West Virginia</option> <option value="WI">Wisconsin</option> <option value="WY">Wyoming</option> </select>
+                        </div><div class="col-md-2">
+                            <input name="practice-zip" id="practice-zip" class="form-control mb0" placeholder="Zipcode">
+                        </div>
+                    </div>
+                    <div class="row"><div class="col-md-12"><small id="passwordHelpBlock" class="form-text text-muted">We are currently only accepting orders in the US</small></div></div>
+                </div>
+                <input name="subject" id="subject" style="display: none;">
+                <button class="btn btn-primary" id="orderFormButton">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+</div> <!-- response -->
+		    </section>
+
+<?php
+footer('
+<script src="/js/jquery.validationEngine-en.js"></script>
+<script src="/js/jquery.validationEngine.js"></script>
+<script src="/js/ordering.js"></script>
+');
+?>

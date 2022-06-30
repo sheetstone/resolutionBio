@@ -1,0 +1,479 @@
+id,value
+EDI,
+EDI.ALK,
+EDI.ALK.EML4-ALK,
+EDI.ALK.EML4-ALK.Fusion:Female:NSCLC Adenocarcinoma
+EDI.ALK.G1326R,
+EDI.ALK.G1326R.SNV:Male:Head & Neck cancer
+EDI.ALK.K1525-,
+EDI.ALK.K1525-.SNV:Female:Cholangiocarcinoma
+EDI.ALK.R1264T,
+EDI.ALK.R1264T.SNV:Male:Head & Neck cancer
+EDI.ALK.S1106G,
+EDI.ALK.S1106G.SNV:Female:Cholangiocarcinoma
+EDI.ALK.SPLICE,
+EDI.ALK.SPLICE.SNV:Male:Glioblastoma Multiforme
+EDI.BRAF,
+EDI.BRAF.V600E,
+EDI.BRAF.V600E.SNV:Female:Cholangiocarcinoma
+EDI.EGFR,
+EDI.EGFR.D770GY,
+EDI.EGFR.D770GY.Indel:Female:NSCLC Adenocarcinoma
+EDI.EGFR.ELREA746-,
+EDI.EGFR.ELREA746-.Indel:Male:NSCLC Adenocarcinoma
+EDI.EGFR.KELREA745K,
+EDI.EGFR.KELREA745K.Indel:Female:NSCLC Adenocarcinoma
+EDI.EGFR.KELREA745K.Indel:Female:NSCLC Adenocarcinoma
+EDI.EGFR.KELREA745K.Indel:Female:NSCLC Adenocarcinoma
+EDI.EGFR.KELREA745K.Indel:Male:NSCLC Adenocarcinoma
+EDI.EGFR.A750A,
+EDI.EGFR.A750A.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.A750S,
+EDI.EGFR.A750S.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.E709K,
+EDI.EGFR.E709K.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.E709V,
+EDI.EGFR.E709V.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.F856L,
+EDI.EGFR.F856L.SNV:Female:Breast cancer
+EDI.EGFR.K745KTS,
+EDI.EGFR.K745KTS.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.L747P,
+EDI.EGFR.L747P.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.L858R,
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.L858R.SNV:Male:Breast cancer
+EDI.EGFR.N771TH,
+EDI.EGFR.N771TH.SNV:Male:Head & Neck cancer
+EDI.EGFR.T751IKT,
+EDI.EGFR.T751IKT.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.T790M,
+EDI.EGFR.T790M.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Female:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Male:NSCLC Adenocarcinoma
+EDI.EGFR.T790M.SNV:Male:NSCLC Adenocarcinoma
+EDI.ERBB2,
+EDI.ERBB2.15_1 copies,
+EDI.ERBB2.15_1 copies.CNV:Female:Breast cancer
+EDI.ERBB2.187 copies,
+EDI.ERBB2.187 copies.CNV:Female:Breast cancer
+EDI.ERBB2.19_8 copies,
+EDI.ERBB2.19_8 copies.CNV:Male:Gastric cancer
+EDI.ERBB2.197 copies,
+EDI.ERBB2.197 copies.CNV:Male:Esophageal cancer
+EDI.ERBB2.22_6 copies,
+EDI.ERBB2.22_6 copies.CNV:Female:Breast cancer
+EDI.ERBB2.23_3 copies,
+EDI.ERBB2.23_3 copies.CNV:Female:Breast cancer
+EDI.ERBB2.26_6 copies,
+EDI.ERBB2.26_6 copies.CNV:Male:HNSCC
+EDI.ERBB2.3_9 copies,
+EDI.ERBB2.3_9 copies.CNV:Male:NSCLC Adenocarcinoma
+EDI.ERBB2.3_95 copies,
+EDI.ERBB2.3_95 copies.CNV:Male:NSCLC Adenocarcinoma
+EDI.ERBB2.4_5 copies,
+EDI.ERBB2.4_5 copies.CNV:Male:Gastric cancer
+EDI.ERBB2.6_1 copies,
+EDI.ERBB2.6_1 copies.CNV:Female:Breast cancer
+EDI.ERBB2.6_96 copies,
+EDI.ERBB2.6_96 copies.CNV:Female:Breast cancer
+EDI.ERBB2.8_2 copies,
+EDI.ERBB2.8_2 copies.CNV:Female:Breast cancer
+EDI.ERBB2.8_2 copies.CNV:Male:Gastric cancer
+EDI.ERBB2.8_62 copies,
+EDI.ERBB2.8_62 copies.CNV:Female:Breast cancer
+EDI.ERBB2.EXON20 INSERTION,
+EDI.ERBB2.EXON20 INSERTION.Indel:Male:NSCLC Adenocarcinoma
+EDI.ERBB2.M797I,
+EDI.ERBB2.M797I.SNV:Male:NSCLC Adenocarcinoma
+EDI.KEAP1,
+EDI.KEAP1.D357E,
+EDI.KEAP1.D357E.SNV:Female:Breast cancer
+EDI.KEAP1.G114W,
+EDI.KEAP1.G114W.SNV:Male:NSCLC Squamous
+EDI.KEAP1.G350R,
+EDI.KEAP1.G350R.SNV:Female:Ovarian cancer
+EDI.KEAP1.G509W,
+EDI.KEAP1.G509W.SNV:Female:NSCLC Adenocarcinoma
+EDI.KEAP1.I185F,
+EDI.KEAP1.I185F.SNV:Female:NSCLC Adenocarcinoma
+EDI.KEAP1.I185F.SNV:Female:NSCLC Adenocarcinoma
+EDI.KEAP1.P181L,
+EDI.KEAP1.P181L.SNV:Male:NSCLC Adenocarcinoma
+EDI.KEAP1.Q118L,
+EDI.KEAP1.Q118L.SNV:Male:NSCLC Adenocarcinoma
+EDI.KEAP1.R272P,
+EDI.KEAP1.R272P.SNV:Female:NSCLC Adenocarcinoma
+EDI.KEAP1.R320L,
+EDI.KEAP1.R320L.SNV:Male:NSCLC Adenocarcinoma
+EDI.KEAP1.R413C,
+EDI.KEAP1.R413C.SNV:Male:Esophageal cancer
+EDI.KEAP1.R460S,
+EDI.KEAP1.R460S.SNV:Male:NSCLC Adenocarcinoma
+EDI.KEAP1.SPLICE,
+EDI.KEAP1.SPLICE.SNV:Male:Cholangiocarcinoma
+EDI.KEAP1.SPLICE.SNV:Male:Cholangiocarcinoma
+EDI.KRAS,
+EDI.KRAS.G12C,
+EDI.KRAS.G12C.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Male:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Male:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Male:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Male:NSCLC Adenocarcinoma
+EDI.KRAS.G12C.SNV:Male:NSCLC Squamous
+EDI.KRAS.G12D,
+EDI.KRAS.G12D.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.G12F,
+EDI.KRAS.G12F.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.G12F.SNV:Male:NSCLC Squamous
+EDI.KRAS.G12R,
+EDI.KRAS.G12R.SNV:Female:Cholangiocarcinoma
+EDI.KRAS.G12V,
+EDI.KRAS.G12V.SNV:Male:NSCLC Squamous
+EDI.KRAS.G13D,
+EDI.KRAS.G13D.SNV:Female:Ovarian cancer
+EDI.KRAS.L19F,
+EDI.KRAS.L19F.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.L19F.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.Q61H,
+EDI.KRAS.Q61H.SNV:Female:Breast cancer
+EDI.KRAS.Q61H.SNV:Female:Ovarian cancer
+EDI.KRAS.Q61L,
+EDI.KRAS.Q61L.SNV:Male:NSCLC Adenocarcinoma
+EDI.KRAS.R68W,
+EDI.KRAS.R68W.SNV:Male:Gastric cancer
+EDI.KRAS.T20S,
+EDI.KRAS.T20S.SNV:Female:NSCLC Adenocarcinoma
+EDI.KRAS.T20S.SNV:Female:NSCLC Adenocarcinoma
+EDI.MAP2K1,
+EDI.MAP2K1.K57N,
+EDI.MAP2K1.K57N.SNV:Female:Cholangiocarcinoma
+EDI.MAP2K1.K57N.SNV:Female:NSCLC Adenocarcinoma
+EDI.MAP2K1.K57N.SNV:Female:NSCLC Adenocarcinoma
+EDI.MET,
+EDI.MET.11_2 copies,
+EDI.MET.11_2 copies.CNV:Male:Gastric Cancer
+EDI.MET.12 copies,
+EDI.MET.12 copies.CNV:Female:NSCLC Adenocarcinoma
+EDI.MET.19_9 copies,
+EDI.MET.19_9 copies.CNV:Male:Esophageal cancer
+EDI.MET.20 copies,
+EDI.MET.20 copies.CNV:Female:NSCLC Adenocarcinoma
+EDI.MET.30_6 copies,
+EDI.MET.30_6 copies.CNV:Male:Gastric Cancer
+EDI.MET.5_6 copies,
+EDI.MET.5_6 copies.CNV:Male:NSCLC Adenocarcinoma
+EDI.MET.6 copies,
+EDI.MET.6 copies.CNV:Female:NSCLC Adenocarcinoma
+EDI.MET.8_4 copies,
+EDI.MET.8_4 copies.CNV:Male:Ovarian cancer
+EDI.MET.9 copies,
+EDI.MET.9 copies.CNV:Female:Breast cancer
+EDI.MET.EXON14 SPLICE,
+EDI.MET.EXON14 SPLICE.Indel:Female:NSCLC Adenocarcinoma
+EDI.MET.EXON14 SPLICE.Indel:Female:NSCLC Adenocarcinoma
+EDI.NRAS,
+EDI.NRAS.G13R,
+EDI.NRAS.G13R.SNV:Female:Cholangiocarcinoma
+EDI.NRAS.G60V,
+EDI.NRAS.G60V.SNV:Female:Breast cancer
+EDI.NRAS.Q61K,
+EDI.NRAS.Q61K.SNV:Female:Cholangiocarcinoma
+EDI.PIK3CA,
+EDI.PIK3CA.E542K,
+EDI.PIK3CA.E542K.SNV:Male:Head & Neck cancer
+EDI.PIK3CA.E545,
+EDI.PIK3CA.E545.SNV:Male:NSCLC Adenocarcinoma
+EDI.PIK3CA.E545G,
+EDI.PIK3CA.E545G.SNV:Female:Breast cancer
+EDI.PIK3CA.E545K,
+EDI.PIK3CA.E545K.SNV:Female:Breast cancer
+EDI.PIK3CA.E545K.SNV:Female:Breast cancer
+EDI.PIK3CA.E545K.SNV:Female:Breast cancer
+EDI.PIK3CA.E545K.SNV:Female:Breast cancer
+EDI.PIK3CA.E545K.SNV:Female:Cholangiocarcinoma
+EDI.PIK3CA.E545K.SNV:Male:Head & Neck cancer
+EDI.PIK3CA.H1047L,
+EDI.PIK3CA.H1047L.SNV:Female:Breast cancer
+EDI.PIK3CA.H1047R,
+EDI.PIK3CA.H1047R.SNV:Female:Breast cancer
+EDI.PIK3CA.H1047R.SNV:Female:Breast cancer
+EDI.PIK3CA.H1047R.SNV:Female:Ovarian cancer
+EDI.PIK3CA.H1047R.SNV:Female:Ovarian cancer
+EDI.PIK3CA.H1047R.SNV:Male:Gastric cancer
+EDI.PIK3CA.H1047R.SNV:Male:Head & Neck cancer
+EDI.PIK3CA.Q546R,
+EDI.PIK3CA.Q546R.SNV:Male:Esophageal cancer
+EDI.RET,
+EDI.RET.KIF5B-RET,
+EDI.RET.KIF5B-RET.Fusion:Female:NSCLC Adenocarcinoma
+EDI.RET.E867K,
+EDI.RET.E867K.SNV:Male:Glioblastoma Multiforme
+EDI.RET.R1050Q,
+EDI.RET.R1050Q.SNV:Female:NSCLC Adenocarcinoma
+EDI.ROS1,
+EDI.ROS1.ROS1-CD74,
+EDI.ROS1.ROS1-CD74.Fusion:Male:NSCLC Adenocarcinoma
+EDI.ROS1.N1936I,
+EDI.ROS1.N1936I.SNV:Male:NSCLC Adenocarcinoma
+EDI.STK11,
+EDI.STK11.D162E,
+EDI.STK11.D162E.SNV:Male:NSCLC Squamous
+EDI.STK11.E223K,
+EDI.STK11.E223K.SNV:Male:Head & Neck cancer
+EDI.STK11.E33*,
+EDI.STK11.E33*.SNV:Male:Head & Neck cancer
+EDI.STK11.E70*,
+EDI.STK11.E70*.SNV:Male:NSCLC Adenocarcinoma
+EDI.STK11.F157C,
+EDI.STK11.F157C.SNV:Male:NSCLC Squamous
+EDI.STK11.G242W,
+EDI.STK11.G242W.SNV:Female:NSCLC Adenocarcinoma
+EDI.STK11.k44*,
+EDI.STK11.k44*.SNV:Male:NSCLC Adenocarcinoma
+EDI.STK11.SPLICE,
+EDI.STK11.SPLICE.SNV:Female:Ovarian cancer
+EDI.STK11.Y60*,
+EDI.STK11.Y60*.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53,
+EDI.TP53.M246MGGM,
+EDI.TP53.M246MGGM.Indel:Female:Breast cancer
+EDI.TP53.A138P,
+EDI.TP53.A138P.SNV:Female:Gastric cancer
+EDI.TP53.A138V,
+EDI.TP53.A138V.SNV:Female:Ovarian cancer
+EDI.TP53.A159G,
+EDI.TP53.A159G.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.C176F,
+EDI.TP53.C176F.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.C176Y,
+EDI.TP53.C176Y.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.C242F,
+EDI.TP53.C242F.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.C275Y,
+EDI.TP53.C275Y.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.D208I,
+EDI.TP53.D208I.SNV:Female:Head & Neck cancer
+EDI.TP53.D259N,
+EDI.TP53.D259N.SNV:Female:Breast cancer
+EDI.TP53.E204*,
+EDI.TP53.E204*.SNV:Male:NSCLC Squamous
+EDI.TP53.E258D,
+EDI.TP53.E258D.SNV:Female:Ovarian cancer
+EDI.TP53.E258K,
+EDI.TP53.E258K.SNV:Female:Head & Neck cancer
+EDI.TP53.E285K,
+EDI.TP53.E285K.SNV:Male:Head & Neck cancer
+EDI.TP53.E285K.SNV:Male:Unknown
+EDI.TP53.E286G,
+EDI.TP53.E286G.SNV:Male:Esophageal cancer
+EDI.TP53.E286V,
+EDI.TP53.E286V.SNV:Male:Head & Neck cancer
+EDI.TP53.E336*,
+EDI.TP53.E336*.SNV:Female:Cholangiocarcinoma
+EDI.TP53.FRAMESHIFT,
+EDI.TP53.FRAMESHIFT.SNV:Female:Breast cancer
+EDI.TP53.FRAMESHIFT.SNV:Female:Cholangiocarcinoma
+EDI.TP53.FRAMESHIFT.SNV:Female:Cholangiocarcinoma
+EDI.TP53.FRAMESHIFT.SNV:Male:Esophageal cancer
+EDI.TP53.FRAMESHIFT.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.G199V,
+EDI.TP53.G199V.SNV:Female:Breast cancer
+EDI.TP53.G262V,
+EDI.TP53.G262V.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.H179D,
+EDI.TP53.H179D.SNV:Female:Head & Neck cancer
+EDI.TP53.H179D.SNV:Female:Ovarian cancer
+EDI.TP53.H179R,
+EDI.TP53.H179R.SNV:Male:Head & Neck cancer
+EDI.TP53.H179Y,
+EDI.TP53.H179Y.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.H193R,
+EDI.TP53.H193R.SNV:Female:Ovarian cancer
+EDI.TP53.I162F,
+EDI.TP53.I162F.SNV:Female:Ovarian cancer
+EDI.TP53.I162T,
+EDI.TP53.I162T.SNV:Male:Gastric cancer
+EDI.TP53.I232T,
+EDI.TP53.I232T.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.I251N,
+EDI.TP53.I251N.SNV:Male:Esophageal cancer
+EDI.TP53.L194F,
+EDI.TP53.L194F.SNV:Female:Breast cancer
+EDI.TP53.L194R,
+EDI.TP53.L194R.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.L257P,
+EDI.TP53.L257P.SNV:Female:Breast cancer
+EDI.TP53.L257V,
+EDI.TP53.L257V.SNV:Female:Breast cancer
+EDI.TP53.L257V.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.M237I,
+EDI.TP53.M237I.SNV:Male:NSCLC Squamous
+EDI.TP53.M246K,
+EDI.TP53.M246K.SNV:Female:Breast cancer
+EDI.TP53.M246V,
+EDI.TP53.M246V.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.NLL263K,
+EDI.TP53.NLL263K.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.P151H,
+EDI.TP53.P151H.SNV:Female:Ovarian cancer
+EDI.TP53.P151S,
+EDI.TP53.P151S.SNV:Female:Ovarian cancer
+EDI.TP53.P151S.SNV:Female:Ovarian cancer
+EDI.TP53.P151S.SNV:Female:Ovarian cancer
+EDI.TP53.P152L,
+EDI.TP53.P152L.SNV:Female:Glioblastoma Multiforme
+EDI.TP53.P177R,
+EDI.TP53.P177R.SNV:Male:Head & Neck cancer
+EDI.TP53.P190L,
+EDI.TP53.P190L.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.P190L.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.P278L,
+EDI.TP53.P278L.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.P47S,
+EDI.TP53.P47S.SNV:Female:Breast cancer
+EDI.TP53.Q100*,
+EDI.TP53.Q100*.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.Q104*,
+EDI.TP53.Q104*.SNV:Male:Head & Neck cancer
+EDI.TP53.Q331*,
+EDI.TP53.Q331*.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R110L,
+EDI.TP53.R110L.SNV:Female:Ovarian cancer
+EDI.TP53.R156P,
+EDI.TP53.R156P.SNV:Male:Esophageal cancer
+EDI.TP53.R158LR,
+EDI.TP53.R158LR.SNV:Male:NSCLC Squamous
+EDI.TP53.R158LR.SNV:Male:NSCLC Squamous
+EDI.TP53.R175H,
+EDI.TP53.R175H.SNV:Female:Ovarian cancer
+EDI.TP53.R175H.SNV:Male:Cholangiocarcinoma
+EDI.TP53.R175H.SNV:Male:Esophageal cancer
+EDI.TP53.R175H.SNV:Male:Esophageal cancer
+EDI.TP53.R175H.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R175H.SNV:Male:NSCLC Squamous
+EDI.TP53.R181H,
+EDI.TP53.R181H.SNV:Female:Breast cancer
+EDI.TP53.R196*,
+EDI.TP53.R196*.SNV:Female:Ovarian cancer
+EDI.TP53.R196*.SNV:Female:Ovarian cancer
+EDI.TP53.R196P,
+EDI.TP53.R196P.SNV:Female:Ovarian cancer
+EDI.TP53.R213*,
+EDI.TP53.R213*.SNV:Female:Head & Neck cancer
+EDI.TP53.R213*.SNV:Female:Ovarian cancer
+EDI.TP53.R248Q,
+EDI.TP53.R248Q.SNV:Female:Breast cancer
+EDI.TP53.R248Q.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.R248Q.SNV:Female:Ovarian cancer
+EDI.TP53.R248Q.SNV:Male:Esophageal cancer
+EDI.TP53.R248Q.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R248Q.SNV:Male:Urothelial cancer
+EDI.TP53.R248W,
+EDI.TP53.R248W.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R273C,
+EDI.TP53.R273C.SNV:Female:Breast cancer
+EDI.TP53.R273C.SNV:Female:Breast cancer
+EDI.TP53.R273C.SNV:Female:Gastric cancer
+EDI.TP53.R273H,
+EDI.TP53.R273H.SNV:Female:Ovarian cancer
+EDI.TP53.R273H.SNV:Male:Esophageal cancer
+EDI.TP53.R273H.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R273H.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R273L,
+EDI.TP53.R273L.SNV:Female:Breast cancer
+EDI.TP53.R273L.SNV:Male:NSCLC Squamous
+EDI.TP53.R273S,
+EDI.TP53.R273S.SNV:Female:Ovarian cancer
+EDI.TP53.R280I,
+EDI.TP53.R280I.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.R280T,
+EDI.TP53.R280T.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.R282G,
+EDI.TP53.R282G.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.R282G.SNV:Male:Gastric cancer
+EDI.TP53.R282P,
+EDI.TP53.R282P.SNV:Male:Gastric cancer
+EDI.TP53.R282W,
+EDI.TP53.R282W.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.R282W.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.R282W.SNV:Female:Ovarian cancer
+EDI.TP53.R282W.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.R306*,
+EDI.TP53.R306*.SNV:Female:Ovarian cancer
+EDI.TP53.R306*.SNV:Female:Ovarian cancer
+EDI.TP53.R337C,
+EDI.TP53.R337C.SNV:Female:Ovarian cancer
+EDI.TP53.R337C.SNV:Male:Gastric cancer
+EDI.TP53.R342*,
+EDI.TP53.R342*.SNV:Female:NSCL
+EDI.TP53.R342P,
+EDI.TP53.R342P.SNV:Female:Ovarian cancer
+EDI.TP53.S127P,
+EDI.TP53.S127P.SNV:Male:Head & Neck cancer
+EDI.TP53.S127Y,
+EDI.TP53.S127Y.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.S166*,
+EDI.TP53.S166*.SNV:Female:Ovarian cancer
+EDI.TP53.S183*,
+EDI.TP53.S183*.SNV:Female:Ovarian cancer
+EDI.TP53.S240R,
+EDI.TP53.S240R.SNV:Male:Unknown
+EDI.TP53.S241C,
+EDI.TP53.S241C.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.S241F,
+EDI.TP53.S241F.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.S241F.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.S94*,
+EDI.TP53.S94*.SNV:Male:Gastric cancer
+EDI.TP53.SPLICE,
+EDI.TP53.SPLICE.SNV:Female:Breast cancer
+EDI.TP53.SPLICE.SNV:Female:Gastric cancer
+EDI.TP53.SPLICE.SNV:Female:Head & Neck cancer
+EDI.TP53.SPLICE.SNV:Female:Ovarian cancer
+EDI.TP53.SPLICE.SNV:Male:Breast cancer
+EDI.TP53.SPLICE.SNV:Male:Head & Neck cancer
+EDI.TP53.SPLICE.SNV:Male:Head & Neck cancer
+EDI.TP53.SPLICE.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.SPLICE.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.V157F,
+EDI.TP53.V157F.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.V157F.SNV:Male:Head & Neck cancer
+EDI.TP53.V173A,
+EDI.TP53.V173A.SNV:Female:Ovarian cancer
+EDI.TP53.V216M,
+EDI.TP53.V216M.SNV:Female:Breast cancer
+EDI.TP53.V274D,
+EDI.TP53.V274D.SNV:Male:Esophageal cancer
+EDI.TP53.W53*,
+EDI.TP53.W53*.SNV:Male:Head & Neck cancer
+EDI.TP53.Y163S,
+EDI.TP53.Y163S.SNV:Male:Cholangiocarcinoma
+EDI.TP53.Y205C,
+EDI.TP53.Y205C.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.Y205N,
+EDI.TP53.Y205N.SNV:Female:Esophageal cancer
+EDI.TP53.Y220C,
+EDI.TP53.Y220C.SNV:Female:Head & Neck cancer
+EDI.TP53.Y220C.SNV:Female:NSCLC Adenocarcinoma
+EDI.TP53.Y220C.SNV:Male:NSCLC Adenocarcinoma
+EDI.TP53.Y220C.SNV:Male:Urothelial cancer
+EDI.TP53.Y220H,
+EDI.TP53.Y220H.SNV:Male:NSCLC Squamous
+EDI.TP53.Y234C,
+EDI.TP53.Y234C.SNV:Female:Breast cancer

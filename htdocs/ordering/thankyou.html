@@ -1,0 +1,21 @@
+<?php
+include_once('../../includes/inc.php');
+	if($_POST['subject'] != '') {
+		echo 1;
+	} else {
+		$headers = 'From: orders@resolutionbio.com' . "\r\n".'Reply-To: noreply@resolutionbio.com' . "\r\n".'X-Mailer: PHP/' . phpversion();
+		mail('orders@resolutionbio.com','Order Form',"Order Form submission:\nName: ".$_POST['firstname'].' '.$_POST['lastname']."\nEmail: ".$_POST['email']."\nNPI: ".$_POST['npi'].
+        "\n\nPractice/Institution: ".$_POST['practice-name'].
+        "\nFirstname: ".$_POST['practice-firstname'].
+        "\nLastname: ".$_POST['practice-lastname'].
+        "\nEmail: ".$_POST['practice-email'].
+        "\nPhone: ".$_POST['practice-phone'].
+        "\nAddress: ".$_POST['practice-address'].
+        "\nCity: ".$_POST['practice-city'].
+        "\nState: ".$_POST['practice-state'].
+        "\nZip: ".$_POST['practice-zip'].
+        "\nIP: ".$_SERVER['REMOTE_ADDR']."\n\n",$headers);
+		echo 1;
+		writeLog('orders.log', implode(", ",$_POST).', '.$_SERVER['REMOTE_ADDR']);
+	}
+?>

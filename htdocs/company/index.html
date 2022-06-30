@@ -1,0 +1,34 @@
+<?php
+include_once('../../includes/inc.php');
+htmlHeader(array("title"=>"","metaDesc"=>"Dedicated to improve cancer outcomes via liquid biopsies.","preLoader"=>"0"));
+?>
+<div class="main-container">
+    <div id="aboutParticle"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center"><img src="/img/resbiologo_A.png" style="width:15%"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 pt48 pb8 text-center">
+                <img src="/img/resolution_definition_trans.png" style="width:50%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <h2>About Us</h2>
+<p>We have all been touched by cancer. We believe that more can be done to help patients. We contribute to the fight by developing better tools and actionable information for patients, clinicians and researchers.</p>
+					<p>Resolution Bioscience, Inc. is a privately-held, profitable, next generation sequencing (NGS) technology company. The company was founded in 2012 and is based in Kirkland, Washington.</p>
+<p>With our patented biochemistry &amp; bioinformatics, we enhance the capabilities of any DNA sequencing platform. Our primary application is in circulating, cell-free DNA (cfDNA) for cancer diagnostics and monitoring.</p>
+<div class="text-center">
+<a class="btn btnLink" href="/contact/">We'd love to hear from you.</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+footer('
+<script src="/js/particles.min.js"></script>
+<script> particlesJS("aboutParticle", {"particles":{ "number":{"value":95,"density":{"enable":true,"value_area":2200}}, "color":{"value":"#1366dc"}, "shape":{"type":"edge","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":4}}, "opacity":{"value":0.1,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.01,"sync":false}}, "size":{"value":82,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}}, "line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1.6,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":true,"rotateX":6155.351604731727,"rotateY":9075}}}, "interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}}, "bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":135.86413586413587,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}}, "retina_detect":true}); var count_particles, update; update = function() { requestAnimationFrame(update); }; requestAnimationFrame(update); </script>
+');
+?>
