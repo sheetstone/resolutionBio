@@ -51,10 +51,11 @@ function htmlHeader($headerOpts = array("title"=>"")) {
 					<li class="has-dropdown">
                                             <a href="#">Liquid Biopsy Assays</a>
                                             <ul>
-                                                <li><a href="/assays/ctDx-Lung.html">Resolution ctDx Lung</a></li>
-                                                <li><a href="/assays/custom.html">Custom</a></li>
-                                                <li><a href="/assays/alk.html">ALK</a></li>
+                                                <li><a href="/assays/ctDx-Lung.php">Resolution ctDx Lung</a></li>
+                                                <li><a href="/assays/custom.php">Custom</a></li>
+                                                <li><a href="/assays/alk.php">ALK</a></li>
                                                 <li><a href="/immuno/">Immuno-oncology</a></li>
+                                                <li><a href="/newProduct/">New Product</a></li>
                                             </ul>
                                         </li>
                                         <li class="has-dropdown">

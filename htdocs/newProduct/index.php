@@ -10,7 +10,7 @@ htmlHeader(array("title"=>"","metaDesc"=>"Dedicated to improving cancer outcomes
 
         <div class="container">
             <div class="row">
-                <h1>Title</h1>
+                <h1>New Product Title</h1>
             </div>
 
         </div>
